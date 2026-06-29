@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Capitalist ME: Global News, Business, Politics, Finance and Sports</title>
+    <link>https://www.capitalistme.com</link>
+    <description>Capitalist ME offers global news, in-depth coverage on business, politics, finance, culture, sports, and the latest world events. Stay informed on key issues</description>
+    <language>en-gb</language>
+    <copyright>© CapitalistME 2026. All rights reserved</copyright>
+    <lastBuildDate>Thu, 11 Jun 2026 09:30:00 GMT</lastBuildDate>
+    <generator>Static HTML RSS Feed</generator>
+    <managingEditor>admin@capitalistme.com (CapitalistME Editor)</managingEditor>
+    <webMaster>admin@capitalistme.com (CapitalistME Webmaster)</webMaster>
+    <category>News</category>
+    <category>Business</category>
+    <category>Politics</category>
+    <category>Finance</category>
+    <category>Sports</category>
+    <atom:link href="https://www.capitalistme.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://www.capitalistme.com/logo.png</url>
+      <title>Capitalist ME: Global News, Business, Politics, Finance and Sports</title>
+      <link>https://www.capitalistme.com</link>
+      <width>144</width>
+      <height>144</height>
+    </image>
+    <item>
+      <title>England vs Costa Rica: Gordon, Rice Lead 3-0 Victory</title>
+      <link>https://www.capitalistme.com/sports/england-vs-costa-rica-gordon-rice-world-cup-warm-up-win</link>
+      <guid isPermaLink="true">https://www.capitalistme.com/sports/england-vs-costa-rica-gordon-rice-world-cup-warm-up-win</guid>
+      <pubDate>Thu, 11 Jun 2026 09:30:00 GMT</pubDate>
+      <category>Sports</category>
+      <description><![CDATA[
+        England beat Costa Rica 3-0 in their final World Cup warm-up as Anthony Gordon starred, while Declan Rice and Ollie Watkins scored.<br><br>
+        <strong>Key points:</strong><br>
+        • Declan Rice opened the scoring in the 9th minute after being set up by Anthony Gordon.<br>
+        • Gordon scored England's second goal from the penalty spot in the 68th minute.<br>
+        • Ollie Watkins added a late third goal to seal the 3-0 victory.<br>
+        • The match was England's final World Cup warm-up before their opener against Croatia.<br><br>
+        Read the full article: <a href="https://www.capitalistme.com/sports/england-vs-costa-rica-gordon-rice-world-cup-warm-up-win">England vs Costa Rica: Gordon, Rice Lead 3-0 Victory</a>
+      ]]></description>
+    </item>
+  </channel>
+</rss>
