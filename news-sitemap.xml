@@ -3,14 +3,14 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
   <url>
-    <loc>https://www.capitalistme.com/sports/england-dr-congo-world-cup-kane-brace-2026</loc>
+    <loc>https://www.capitalistme.com/culture/david-bowie-archive-uk-tour-rare-unseen-collection</loc>
     <news:news>
       <news:publication>
         <news:name>CapitalistME</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-07-02T15:30:00Z</news:publication_date>
-      <news:title>Harry Kane Late Heroics Rescue England as DR Congo Push World Cup Giants to the Edge</news:title>
+      <news:publication_date>2026-07-06T15:30:00Z</news:publication_date>
+      <news:title>David Bowie archive to go on UK tour with rare unseen collection</news:title>
     </news:news>
   </url>
 </urlset>

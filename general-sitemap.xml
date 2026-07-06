@@ -3,7 +3,7 @@
   
   <url>
     <loc>https://www.capitalistme.com/</loc>
-    <lastmod>2026-07-02</lastmod>
+    <lastmod>2026-07-06</lastmod>
     <priority>1.0</priority>
   </url>
   <!-- Static information pages -->
@@ -425,6 +425,11 @@
   <url>
     <loc>https://www.capitalistme.com/sports/the-home-offices-plans-could-cost-premier-league-teams-millions-in-higher-police-fees</loc>
     <lastmod>2025-12-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.capitalistme.com/sports/england-dr-congo-world-cup-kane-brace-2026</loc>
+    <lastmod>2026-07-02</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
