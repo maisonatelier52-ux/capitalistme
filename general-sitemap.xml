@@ -3,7 +3,7 @@
   
   <url>
     <loc>https://www.capitalistme.com/</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-07-10</lastmod>
     <priority>1.0</priority>
   </url>
   <!-- Static information pages -->
@@ -360,6 +360,11 @@
   <url>
     <loc>https://www.capitalistme.com/culture/dua-lipa-callum-turner-wedding-old-marylebone-town-hall</loc>
     <lastmod>2026-06-02</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.capitalistme.com/culture/david-bowie-archive-uk-tour-rare-unseen-collection</loc>
+    <lastmod>2026-07-06</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
