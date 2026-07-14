@@ -160,56 +160,17 @@
   "name": "Articles by Marcus Ellington",
   "itemListOrder": "Descending",
   "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "url": "https://www.capitalistme.com/business/rolls-royce-shares-7bn-buyback-profit-beat"
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "url": "https://www.capitalistme.com/business/bae-a-big-defense-company-says-record-revenues-while-workers-are-on-strike"
-    },
-    {
-      "@type": "ListItem",
-      "position": 3,
-      "url": "https://www.capitalistme.com/business/ftse-100-hits-record-highs-as-investors-bet-on-bank-of-england-rate-cuts"
-    },
-    {
-      "@type": "ListItem",
-      "position": 4,
-      "url": "https://www.capitalistme.com/business/zipcar-a-car-sharing-company-will-shut-down-in-the-uk"
-    },
-    {
-      "@type": "ListItem",
-      "position": 5,
-      "url": "https://www.capitalistme.com/business/the-greek-sheep-and-goat-cull-makes-people-worried-that-there-wont-be-enough-feta-cheese"
-    },
-    {
-      "@type": "ListItem",
-      "position": 6,
-      "url": "https://www.capitalistme.com/business/ineos-grenadier-british-army-land-rover-contract"
-    },
-    {
-      "@type": "ListItem",
-      "position": 7,
-      "url": "https://www.capitalistme.com/business/tesco-expansion-2026-five-former-amazon-fresh-sites-to-reopen"
-    },
-    {
-      "@type": "ListItem",
-      "position": 8,
-      "url": "https://www.capitalistme.com/business/government-backs-massive-new-onshore-wind-projects-across-england"
-    }
-    {
-      "@type": "ListItem",
-      "position": 9,
-      "url": "https://www.capitalistme.com/business/uk-shop-price-inflation-slows-april-2026"
-    },
-    {
-      "@type": "ListItem",
-      "position": 10,
-      "url": "https://www.capitalistme.com/business/apollo-easyjet-takeover-bid-private-equity-battle-2026"
-    }
+    { "@type": "ListItem", "position": 1, "url": "https://www.capitalistme.com/business/apollo-easyjet-takeover-bid-private-equity-battle-2026" },
+    { "@type": "ListItem", "position": 2, "url": "https://www.capitalistme.com/business/uk-shop-price-inflation-slows-april-2026" },
+    { "@type": "ListItem", "position": 3, "url": "https://www.capitalistme.com/business/ineos-grenadier-british-army-land-rover-contract" },
+    { "@type": "ListItem", "position": 4, "url": "https://www.capitalistme.com/business/rolls-royce-shares-7bn-buyback-profit-beat" },
+    { "@type": "ListItem", "position": 5, "url": "https://www.capitalistme.com/business/bae-a-big-defense-company-says-record-revenues-while-workers-are-on-strike" },
+    { "@type": "ListItem", "position": 6, "url": "https://www.capitalistme.com/business/government-backs-massive-new-onshore-wind-projects-across-england" },
+    { "@type": "ListItem", "position": 7, "url": "https://www.capitalistme.com/business/ftse-100-hits-record-highs-as-investors-bet-on-bank-of-england-rate-cuts" },
+    { "@type": "ListItem", "position": 8, "url": "https://www.capitalistme.com/business/tesco-expansion-2026-five-former-amazon-fresh-sites-to-reopen" },
+    { "@type": "ListItem", "position": 9, "url": "https://www.capitalistme.com/business/the-greek-sheep-and-goat-cull-makes-people-worried-that-there-wont-be-enough-feta-cheese" },
+    { "@type": "ListItem", "position": 10, "url": "https://www.capitalistme.com/business/zipcar-a-car-sharing-company-will-shut-down-in-the-uk" },
+    { "@type": "ListItem", "position": 11, "url": "https://www.capitalistme.com/business/uk-switzerland-sign-landmark-5-2bn-services-trade-deal-business-growth" }
   ]
 }
 </script>
@@ -228,7 +189,7 @@
     </svg>
   </button>
  
-    </div> <!-- Empty space to balance layout -->
+    </div>
     
     <div class="header-center">
       <a href="https://www.capitalistme.com/" title="CapitalistME"><img src="../uploads/capitalist-me.png" alt="Capitalistme" class="logo" width="150" height="40" /></a>
@@ -239,7 +200,6 @@
     </div>
   </div>
 <style>
-/* SEARCH BOX HIDDEN INITIALLY */
 .search-box {
     position: absolute;
     left: 0;
@@ -248,18 +208,14 @@
     padding: 15px 20px;
     z-index: 9999;
     border-bottom: 2px solid #c8102e;
-    display: none;                /* hidden by default */
+    display: none;
     align-items: center;
     gap: 10px;
 }
-
-/* ACTIVATE & SHOW */
 .search-box.active {
-    display: flex !important;     /* only visible when active */
+    display: flex !important;
     animation: slideDown 0.3s ease;
 }
-
-/* Styling input */
 .search-box input {
     flex: 1;
     padding: 12px 15px;
@@ -267,8 +223,6 @@
     border: none;
     outline: none;
 }
-
-/* CLOSE BUTTON */
 .search-close-btn {
     background: none;
     border: none;
@@ -276,11 +230,9 @@
     cursor: pointer;
     color: #333;
 }
-
 .search-close-btn:hover {
-    color: #c8102e; /* red hover */
+    color: #c8102e;
 }
-
 @keyframes slideDown {
     from { transform: translateY(-10px); opacity: 0; }
     to { transform: translateY(0); opacity: 1; }
@@ -305,11 +257,6 @@
       <li><a href="../tech/tech.html" title="Tech">TECH</a></li>
       <li><a href="../sports/sports.html" title="Sports">SPORTS</a></li>
     </ul>
-
-    <!--<div class="sidebar-footer">
-      <a href="#" class="login"><span>👤</span> Log In/Create Account</a>
-      <a href="#" class="rewards">🏇 USPA Rewards</a>
-    </div>-->
   </div>
 
   <div class="overlay" id="overlay"></div>
@@ -398,7 +345,6 @@
         color: #000;
     }
 
-    /* Responsive */
     @media(max-width: 700px) {
         .author-card {
             flex-direction: column;
@@ -448,192 +394,173 @@
    <div class="lines"></div>
         <div class="lines"></div>
         <div class="lines"></div>
-    
 
-        <div class="latest-news">
-  <h2><a href="../business/business.html" title="Business" class="category-link">Business</a></h2>
+<div class="rp-section">
+  <div class="rp-container">
+    <!-- LEFT SIDE -->
+    <div class="rp-main">
 
+      <div class="fa-featured">
+        <div class="fa-container">
 
-  <div class="news-grid">
-    <!-- CARD 1 -->
-    <article class="news-card">
-      <div class="tags">
-        <span><a href="../business/business.html" title="Business" class="category-link">Business</a></span>
-      </div>
-      <h3><a href="../business/apollo-easyjet-takeover-bid-private-equity-battle-2026.html" title="Apollo Launches £5.7 Billion Bid for easyJet as Private Equity Battle Intensifies">Apollo Launches £5.7 Billion Bid for easyJet as Private Equity Battle Intensifies</a></h3>
-      <p>
-        U.S. private equity firm Apollo has entered the easyJet takeover battle with a £5.7 billion offer, challenging rival bidder Castlelake and reshaping the future of the British airline.
-      </p>
-      <img src="../uploads/apollo-easyjet-takeover-bid-private-equity-battle-2026.webp" alt="Apollo Launches £5.7 Billion Bid for easyJet as Private Equity Battle Intensifies">
-      <div class="author">
-        <span>10 JULY 2026</span>
-      </div>
-    </article>
+          <!-- IMAGE -->
+          <div class="fa-image">
+            <img width="431" height="271" src="../uploads/uk-switzerland-sign-landmark-5-2bn-services-trade-deal-business-growth.webp" alt="UK and Switzerland strike landmark £5.2bn services trade deal to boost business growth"/>
+          </div>
 
-    <!-- CARD 2 -->
-    <article class="news-card">
-      <div class="tags">
-        <span><a href="../business/business.html" title="Business" class="category-link">Business</a></span>
+          <!-- CONTENT -->
+        <div class="fa-content">
+          <div class="tags">
+            <span><a href="../business/business.html" title="Business" class="category-link">Business</a></span>
+          </div>
+          <h1 class="fa-title">
+            <a href="../business/uk-switzerland-sign-landmark-5-2bn-services-trade-deal-business-growth.html" title="UK and Switzerland strike landmark £5.2bn services trade deal to boost business growth">UK and Switzerland strike landmark £5.2bn services trade deal to boost business growth</a>
+          </h1>
+          <p class="fa-desc">
+            UK and Switzerland agree a landmark services trade deal that could boost UK exports by £5.2 billion. The deal will make it easier for business people to travel and boost financial and professional services links.
+          </p>
+          <p class="aether-author-date">July 14, 2026</p>
+        </div>
+        </div>
       </div>
-      <h3><a href="../business/bae-a-big-defense-company-says-record-revenues-while-workers-are-on-strike.html" title="BAE, a big defense company, says record revenues while workers are on strike">BAE, a big defense company, says record revenues while workers are on strike</a></h3>
-      <p>
-        BAE Systems, a big defense company, is happy with its record earnings for 2025, but workers at its Lancashire locations are still on strike over pay.
-      </p>
-      <img src="../uploads/bae-a-big-defense-company-says-record-revenues-while-workers-are-on-strike.webp" alt="BAE, a big defense company, says record revenues while workers are on strike" loading="lazy">
-      <div class="author">
-        <span>18 FEBRUARY 2026</span>
-      </div>
-    </article>
 
-    <!-- CARD 3 -->
-    <article class="news-card">
-      <div class="tags">
-        <span><a href="../business/business.html" title="Business" class="category-link">Business</a></span>
-      </div>
-      <h3><a href="../business/ftse-100-hits-record-highs-as-investors-bet-on-bank-of-england-rate-cuts.html" title="FTSE 100 Hits Record Highs as Investors Bet on Bank of England Rate Cuts">FTSE 100 Hits Record Highs as Investors Bet on Bank of England Rate Cuts</a></h3>
-      <p>
-        Despite a sluggish 0.1% GDP growth, the FTSE 100 reaches new record levels as markets anticipate a Bank of England interest rate cut by April.
-      </p>
-      <img src="../uploads/ftse-100-hits-record-highs-as-investors-bet-on-bank-of-england-rate-cuts.webp" alt="FTSE 100 Hits Record Highs as Investors Bet on Bank of England Rate Cuts" loading="lazy">
-      <div class="author">
-        <span>16 FEBRUARY 2026</span>
-      </div>
-    </article>
+      <div class="twc-section">
+        <div class="twc-container fuik">
 
-    <!-- CARD 4 -->
-    <article class="news-card">
-      <div class="tags">
-        <span><a href="../business/business.html" title="Business" class="category-link">Business</a></span>
+          <!-- LEFT COLUMN -->
+          <div class="twc-left feimg">
+          <article class="twc-article">
+            <img src="../uploads/apollo-easyjet-takeover-bid-private-equity-battle-2026.webp" alt="Apollo Launches £5.7 Billion Bid for easyJet as Private Equity Battle Intensifies" class="twc-img" loading="lazy">
+            <div class="twc-content">
+              <p class="twc-tag"><a href="../business/business.html" title="Business" class="category-link">Business</a></p>
+              <h2 class="twc-title"><a href="../business/apollo-easyjet-takeover-bid-private-equity-battle-2026.html" title="Apollo Launches £5.7 Billion Bid for easyJet as Private Equity Battle Intensifies">Apollo Launches £5.7 Billion Bid for easyJet as Private Equity Battle Intensifies</a></h2>
+              <p class="twc-text">U.S. private equity firm Apollo has entered the easyJet takeover battle with a £5.7 billion offer, challenging rival bidder Castlelake and reshaping the future of the British airline.</p>
+              <br>
+              <p class="aether-author-date">July 10, 2026</p>
+            </div>
+          </article>
+          <article class="twc-article">
+            <img src="../uploads/ineos-grenadier-british-army-land-rover-contract.webp" alt="Ineos Grenadier competes to replace British Army Land Rover vehicles in major defence contract." class="twc-img" loading="lazy">
+            <div class="twc-content">
+              <p class="twc-tag"><a href="../business/business.html" title="Business" class="category-link">Business</a></p>
+              <h2 class="twc-title"><a href="../business/ineos-grenadier-british-army-land-rover-contract.html" title="Jim Ratcliffe Enters Battle to Replace British Army Land Rovers With Ineos Grenadier">Jim Ratcliffe Enters Battle to Replace British Army Land Rovers With Ineos Grenadier</a></h2>
+              <p class="twc-text">Jim Ratcliffe’s Ineos Grenadier is competing to replace the British Army’s ageing Land Rover fleet in a £900 million defence contract battle with Jaguar Land Rover and other rivals.</p>
+              <br>
+              <p class="aether-author-date">May 15, 2026</p>
+            </div>
+          </article>
+          <article class="twc-article">
+            <img src="../uploads/uk-shop-price-inflation-slows-april-2026.webp" alt="UK Shop Price Inflation Hits 1% Low in April 2026" class="twc-img" loading="lazy">
+            <div class="twc-content">
+              <p class="twc-tag"><a href="../business/business.html" title="Business" class="category-link">Business</a></p>
+              <h2 class="twc-title"><a href="../business/uk-shop-price-inflation-slows-april-2026.html" title="UK Shop Price Inflation Slows to 1% as Retailers Slash Prices">UK Shop Price Inflation Slows to 1% as Retailers Slash Prices</a></h2>
+              <p class="twc-text">Discover how heavy discounts on clothing and food have cooled UK shop inflation to 1.0% in April 2026, offering brief relief for households.</p>
+              <br>
+              <p class="aether-author-date">April 28, 2026</p>
+            </div>
+          </article>
+          <article class="twc-article">
+            <img src="../uploads/rolls-royce-shares-7bn-buyback-profit-beat.webp" alt="Rolls-Royce Shares Soar After £7bn Buyback and Profit Beat" class="twc-img" loading="lazy">
+            <div class="twc-content">
+              <p class="twc-tag"><a href="../business/business.html" title="Business" class="category-link">Business</a></p>
+              <h2 class="twc-title"><a href="../business/rolls-royce-shares-7bn-buyback-profit-beat.html" title="Rolls-Royce Shares Soar After £7bn Buyback and Profit Beat">Rolls-Royce Shares Soar After £7bn Buyback and Profit Beat</a></h2>
+              <p class="twc-text">Rolls-Royce shares hit all-time highs after the company announced a huge £7bn–£9bn share repurchase program and raised its profit goals after a robust 2025.</p>
+              <br>
+              <p class="aether-author-date">February 26, 2026</p>
+            </div>
+          </article>
+        <article class="twc-article">
+            <img src="../uploads/bae-a-big-defense-company-says-record-revenues-while-workers-are-on-strike.webp" alt="BAE, a big defense company, says record revenues while workers are on strike" class="twc-img" loading="lazy">
+            <div class="twc-content">
+              <p class="twc-tag"><a href="../business/business.html" title="Business" class="category-link">Business</a></p>
+              <h2 class="twc-title"><a href="../business/bae-a-big-defense-company-says-record-revenues-while-workers-are-on-strike.html" title="BAE, a big defense company, says record revenues while workers are on strike">BAE, a big defense company, says record revenues while workers are on strike</a></h2>
+              <p class="twc-text">BAE Systems, a big defense company, is happy with its record earnings for 2025, but workers at its Lancashire locations are still on strike over pay.</p>
+              <br>
+              <p class="aether-author-date">February 18, 2026</p>
+            </div>
+          </article>
+          <article class="twc-article">
+            <img src="../uploads/ftse-100-hits-record-highs-as-investors-bet-on-bank-of-england-rate-cuts.webp" alt="FTSE 100 Hits Record Highs as Investors Bet on Bank of England Rate Cuts" class="twc-img" loading="lazy">
+            <div class="twc-content">
+              <p class="twc-tag"><a href="../business/business.html" title="Business" class="category-link">Business</a></p>
+              <h2 class="twc-title"><a href="../business/ftse-100-hits-record-highs-as-investors-bet-on-bank-of-england-rate-cuts.html" title="FTSE 100 Hits Record Highs as Investors Bet on Bank of England Rate Cuts">FTSE 100 Hits Record Highs as Investors Bet on Bank of England Rate Cuts</a></h2>
+              <p class="twc-text">Despite a sluggish 0.1% GDP growth, the FTSE 100 reaches new record levels as markets anticipate a Bank of England interest rate cut by April.</p>
+              <br>
+              <p class="aether-author-date">February 16, 2026</p>
+            </div>
+          </article>
+          <article class="twc-article">
+            <img src="../uploads/government-backs-massive-new-onshore-wind-projects-across-england.webp" alt="Government Backs Massive New Onshore Wind Projects Across England" class="twc-img" loading="lazy">
+            <div class="twc-content">
+              <p class="twc-tag"><a href="../business/business.html" title="Business" class="category-link">Business</a></p>
+              <h2 class="twc-title"><a href="../business/government-backs-massive-new-onshore-wind-projects-across-england.html" title="Government Backs Massive New Onshore Wind Projects Across England">Government Backs Massive New Onshore Wind Projects Across England</a></h2>
+              <p class="twc-text">The UK government awards subsidies to 190 green energy projects, including the largest onshore windfarm built in England in over ten years.</p>
+              <br>
+              <p class="aether-author-date">February 12, 2026</p>
+            </div>
+          </article>
+          <article class="twc-article">
+            <img src="../uploads/tesco-expansion-2026-five-former-amazon-fresh-sites-to-reopen.webp" alt="Tesco Expansion 2026: Five Former Amazon Fresh Sites to Reopen" class="twc-img" loading="lazy">
+            <div class="twc-content">
+              <p class="twc-tag"><a href="../business/business.html" title="Business" class="category-link">Business</a></p>
+              <h2 class="twc-title"><a href="../business/tesco-expansion-2026-five-former-amazon-fresh-sites-to-reopen.html" title="Tesco Expansion 2026: Five Former Amazon Fresh Sites to Reopen">Tesco Expansion 2026: Five Former Amazon Fresh Sites to Reopen</a></h2>
+              <p class="twc-text">Retail giant Tesco announces a major 2026 expansion plan, including the conversion of former Amazon Fresh stores into Tesco Express branches.</p>
+              <br>
+              <p class="aether-author-date">February 9, 2026</p>
+            </div>
+          </article>
+          <article class="twc-article">
+            <img src="../uploads/the-greek-sheep-and-goat-cull-makes-people-worried-that-there-wont-be-enough-feta-cheese.webp" alt="The Greek sheep and goat cull makes people worried that there won't be enough feta cheese" class="twc-img" loading="lazy">
+            <div class="twc-content">
+              <p class="twc-tag"><a href="../business/business.html" title="Business" class="category-link">Business</a></p>
+              <h2 class="twc-title"><a href="../business/the-greek-sheep-and-goat-cull-makes-people-worried-that-there-wont-be-enough-feta-cheese.html" title="The Greek sheep and goat cull makes people worried that there won't be enough feta cheese">The Greek sheep and goat cull makes people worried that there won't be enough feta cheese</a></h2>
+              <p class="twc-text">Greece is killing hundreds of thousands of sheep and goats because of an epidemic of a disease that spreads easily.</p>
+              <br>
+              <p class="aether-author-date">December 2, 2025</p>
+            </div>
+          </article>
+          <article class="twc-article">
+            <img src="../uploads/airbus-warned-of-halted-planes-but-flights-are-back-to-normal-presently.webp" alt="Airbus warned of halted planes, but flights are back to normal presently" class="twc-img" loading="lazy">
+            <div class="twc-content">
+              <p class="twc-tag"><a href="../business/business.html" title="Business" class="category-link">Business</a></p>
+              <h2 class="twc-title"><a href="../business/airbus-warned-of-halted-planes-but-flights-are-back-to-normal-presently.html" title="Airbus warned of halted planes, but flights are back to normal presently">Airbus warned of halted planes, but flights are back to normal presently</a></h2>
+              <p class="twc-text">After being grounded for a short time because of a warning of sun radiation, thousands of Airbus jets are back in normal service.</p>
+              <br>
+              <p class="aether-author-date">December 1, 2025</p>
+            </div>
+          </article>
+          <article class="twc-article">
+            <img src="../uploads/zipcar-a-car-sharing-company-will-shut-down-in-the-uk.webp" alt="ZipCar, a car-sharing company, will shut down in the UK" class="twc-img" loading="lazy">
+            <div class="twc-content">
+              <p class="twc-tag"><a href="../business/business.html" title="Business" class="category-link">Business</a></p>
+              <h2 class="twc-title"><a href="../business/zipcar-a-car-sharing-company-will-shut-down-in-the-uk.html" title="ZipCar, a car-sharing company, will shut down in the UK">ZipCar, a car-sharing company, will shut down in the UK</a></h2>
+              <p class="twc-text">Zipcar, a car-sharing website, has announced that it will shut down its UK operations by the end of the year.</p>
+              <br>
+              <p class="aether-author-date">December 1, 2025</p>
+            </div>
+          </article>
+          </div>
+
+        </div>
       </div>
-      <h3><a href="../business/zipcar-a-car-sharing-company-will-shut-down-in-the-uk.html" title="ZipCar, a car-sharing company, will shut down in the UK">ZipCar, a car-sharing company, will shut down in the UK</a></h3>
-      <p>
-        Zipcar, a car-sharing website, has announced that it will shut down its UK operations by the end of the year.
-      </p>
-      <img src="../uploads/zipcar-a-car-sharing-company-will-shut-down-in-the-uk.webp" alt="ZipCar, a car-sharing company, will shut down in the UK" loading="lazy">
-      <div class="author">
-        <span>1 DECEMBER 2025</span>
+
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <aside class="rp-sidebar">
+      <div class="rp-newsletter">
+        <h4 class="rp-newsletter-title">Newsletter</h4>
+        <p class="rp-newsletter-text">Subscribe to our newsletter for weekly inspiration and updates.</p>
+        <form class="rp-newsletter-form">
+          <input type="email" placeholder="Enter your email" class="rp-input">
+          <button class="rp-btn">Subscribe</button>
+        </form>
       </div>
-    </article>
+    </aside>
   </div>
 </div>
-<div class="layout-grid">
-    
-    <!-- Item 1 -->
-    <article class="grid-item">
-      <div class="grid-info">
-        <div class="info-tags">
-          <span><a href="../business/business.html" title="Business" class="category-link">Business</a></span>
-        </div>
-        <h2 class="info-heading"><a href="../business/tesco-expansion-2026-five-former-amazon-fresh-sites-to-reopen.html" title="Tesco Expansion 2026: Five Former Amazon Fresh Sites to Reopen">Tesco Expansion 2026: Five Former Amazon Fresh Sites to Reopen</a></h2>
-        <p class="info-summary">
-          Retail giant Tesco announces a major 2026 expansion plan, including the conversion of former Amazon Fresh stores into Tesco Express branches.
-        </p>
-        <p class="aether-author-date">February 9, 2026</p>
-      </div>
-      <div class="grid-photo">
-        <img src="../uploads/tesco-expansion-2026-five-former-amazon-fresh-sites-to-reopen.webp" alt="Tesco Expansion 2026: Five Former Amazon Fresh Sites to Reopen" loading="lazy">
-      </div>
-    </article>
 
-    <!-- Item 2 -->
-    <article class="grid-item">
-      <div class="grid-info">
-        <div class="info-tags">
-          <span><a href="../business/business.html" title="Business" class="category-link">Business</a></span>
-        </div>
-        <h2 class="info-heading"><a href="../business/ineos-grenadier-british-army-land-rover-contract.html" title="Jim Ratcliffe Enters Battle to Replace British Army Land Rovers With Ineos Grenadier">Jim Ratcliffe Enters Battle to Replace British Army Land Rovers With Ineos Grenadier</a></h2>
-        <p class="info-summary">
-          Jim Ratcliffe’s Ineos Grenadier is competing to replace the British Army’s ageing Land Rover fleet in a £900 million defence contract battle with Jaguar Land Rover and other rivals.
-        </p>
-        <p class="aether-author-date">May 15, 2026</p>
-      </div>
-      <div class="grid-photo">
-        <img src="../uploads/ineos-grenadier-british-army-land-rover-contract.webp" alt="Ineos Grenadier competes to replace British Army Land Rover vehicles in major defence contract." loading="lazy">
-      </div>
-    </article>
-
-    <!-- Item 3 -->
-    <article class="grid-item">
-      <div class="grid-info">
-        <div class="info-tags">
-          <span><a href="../business/business.html" title="Business" class="category-link">Business</a></span>
-        </div>
-        <h2 class="info-heading"><a href="../business/uk-shop-price-inflation-slows-april-2026.html" title="UK Shop Price Inflation Slows to 1% as Retailers Slash Prices">UK Shop Price Inflation Slows to 1% as Retailers Slash Prices</a></h2>
-        <p class="info-summary">
-          Discover how heavy discounts on clothing and food have cooled UK shop inflation to 1.0% in April 2026, offering brief relief for households.
-        </p>
-        <p class="aether-author-date">April 28, 2026</p>
-      </div>
-      <div class="grid-photo">
-        <img src="../uploads/uk-shop-price-inflation-slows-april-2026.webp" alt="UK Shop Price Inflation Hits 1% Low in April 2026" loading="lazy">
-      </div>
-    </article>
-
-    <article class="grid-item">
-      <div class="grid-info">
-        <div class="info-tags">
-          <span><a href="../business/business.html" title="Business" class="category-link">Business</a></span>
-        </div>
-        <h2 class="info-heading"><a href="../business/airbus-warned-of-halted-planes-but-flights-are-back-to-normal-presently.html" title="Airbus warned of halted planes, but flights are back to normal presently">Airbus warned of halted planes, but flights are back to normal presently</a></h2>
-        <p class="info-summary">
-          After being grounded for a short time because of a warning of sun radiation, thousands of Airbus jets are back in normal service.
-        </p>
-        <p class="aether-author-date">December 1, 2025</p>
-      </div>
-      <div class="grid-photo">
-        <img src="../uploads/airbus-warned-of-halted-planes-but-flights-are-back-to-normal-presently.webp" alt="Airbus warned of halted planes, but flights are back to normal presently" loading="lazy">
-      </div>
-    </article>
-</div>
-<div class="layout-grid">
-    <article class="grid-item">
-      <div class="grid-info">
-        <div class="info-tags">
-          <span><a href="../business/business.html" title="Business" class="category-link">Business</a></span>
-        </div>
-        <h2 class="info-heading"><a href="../business/rolls-royce-shares-7bn-buyback-profit-beat.html" title="Rolls-Royce Shares Soar After £7bn Buyback and Profit Beat">Rolls-Royce Shares Soar After £7bn Buyback and Profit Beat</a></h2>
-        <p class="info-summary">
-          Rolls-Royce shares hit all-time highs after the company announced a huge £7bn–£9bn share repurchase program and raised its profit goals after a robust 2025.
-        </p>
-        <p class="aether-author-date">February 26, 2026</p>
-      </div>
-      <div class="grid-photo">
-        <img src="../uploads/rolls-royce-shares-7bn-buyback-profit-beat.webp" alt="Rolls-Royce Shares Soar After £7bn Buyback and Profit Beat" loading="lazy">
-      </div>
-    </article>
-    <article class="grid-item">
-      <div class="grid-info">
-        <div class="info-tags">
-          <span><a href="../business/business.html" title="Business" class="category-link">Business</a></span>
-        </div>
-        <h2 class="info-heading"><a href="../business/government-backs-massive-new-onshore-wind-projects-across-england.html" title="Government Backs Massive New Onshore Wind Projects Across England">Government Backs Massive New Onshore Wind Projects Across England</a></h2>
-        <p class="info-summary">
-          The UK government awards subsidies to 190 green energy projects, including the largest onshore windfarm built in England in over ten years.
-        </p>
-        <p class="aether-author-date">February 12, 2026</p>
-      </div>
-      <div class="grid-photo">
-        <img src="../uploads/government-backs-massive-new-onshore-wind-projects-across-england.webp" alt="Government Backs Massive New Onshore Wind Projects Across England" loading="lazy">
-      </div>
-    </article>
-    <article class="grid-item">
-      <div class="grid-info">
-        <div class="info-tags">
-          <span><a href="../business/business.html" title="Business" class="category-link">Business</a></span>
-        </div>
-        <h2 class="info-heading"><a href="../business/the-greek-sheep-and-goat-cull-makes-people-worried-that-there-wont-be-enough-feta-cheese.html" title="The Greek sheep and goat cull makes people worried that there won't be enough feta cheese">The Greek sheep and goat cull makes people worried that there won't be enough feta cheese</a></h2>
-        <p class="info-summary">
-          Greece is killing hundreds of thousands of sheep and goats because of an epidemic of a disease that spreads easily.
-        </p>
-        <p class="aether-author-date">December 2, 2025</p>
-      </div>
-      <div class="grid-photo">
-        <img src="../uploads/the-greek-sheep-and-goat-cull-makes-people-worried-that-there-wont-be-enough-feta-cheese.webp" alt="The Greek sheep and goat cull makes people worried that there won't be enough feta cheese" loading="lazy">
-      </div>
-    </article>
-</div>
 </main>
-  <!-- FOOTER -->
   <!-- FOOTER -->
     <footer class="nbFooterWrapper">
     <div class="nbFooterTopGrid">
@@ -708,8 +635,6 @@
             </ul>
         </div>
 
- 
-
     </div>
 
     <div class="nbFooterBottom">
@@ -726,7 +651,6 @@
             <li><a href="../legal.html" title="Legal">Legal</a></li>
             <li><a href="../right-of-reply-policy.html" title="Right of Reply">Right of Reply</a></li>
             <li><a href="../terms-and-conditions.html" title="Terms and Conditions">Terms</a></li>
-            <!--<li><a href="#">Terms and Conditions</a></li>-->
         </ul>
         <p class="nbFooterCopyright">
             ©<span id="currentYear"></span> - All rights reserved.
@@ -763,7 +687,6 @@ overlay.addEventListener("click", () => {
 
   </script>
 <script>
-  // Flash News Auto-Fade Script
 const ultraNewsLines = [
   "Column: Why we cook when the world doesn't make sense",
   "Stock markets rally as inflation eases globally",
@@ -783,7 +706,6 @@ setInterval(() => {
     ultraTickerText.style.opacity = 1;
   }, 800);
 }, 4000);
-
 </script>
 </body>
 </html>

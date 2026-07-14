@@ -3,7 +3,7 @@
   
   <url>
     <loc>https://www.capitalistme.com/</loc>
-    <lastmod>2026-07-10</lastmod>
+    <lastmod>2026-07-14</lastmod>
     <priority>1.0</priority>
   </url>
   <!-- Static information pages -->
@@ -231,6 +231,11 @@
     <loc>https://www.capitalistme.com/business/</loc>
     <lastmod>2026-02-26</lastmod>
     <priority>0.1</priority>
+  </url>
+  <url>
+    <loc>https://www.capitalistme.com/business/apollo-easyjet-takeover-bid-private-equity-battle-2026</loc>
+    <lastmod>2026-07-10</lastmod>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.capitalistme.com/business/ineos-grenadier-british-army-land-rover-contract</loc>
