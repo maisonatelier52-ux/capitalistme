@@ -3,7 +3,7 @@
   
   <url>
     <loc>https://www.capitalistme.com/</loc>
-    <lastmod>2026-07-16</lastmod>
+    <lastmod>2026-07-21</lastmod>
     <priority>1.0</priority>
   </url>
   <!-- Static information pages -->
@@ -231,6 +231,11 @@
     <loc>https://www.capitalistme.com/business/</loc>
     <lastmod>2026-02-26</lastmod>
     <priority>0.1</priority>
+  </url>
+  <url>
+    <loc>https://www.capitalistme.com/business/uk-economy-growth-may-2026-gdp-services-sector</loc>
+    <lastmod>2026-07-16</lastmod>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.capitalistme.com/business/uk-switzerland-sign-landmark-5-2bn-services-trade-deal-business-growth</loc>
