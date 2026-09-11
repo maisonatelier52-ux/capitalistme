@@ -3,7 +3,7 @@
   
   <url>
     <loc>https://www.capitalistme.com/</loc>
-    <lastmod>2026-09-02</lastmod>
+    <lastmod>2026-09-11</lastmod>
     <priority>1.0</priority>
   </url>
   <!-- Static information pages -->
@@ -185,6 +185,11 @@
   <url>
     <loc>https://www.capitalistme.com/politics/reeves-refutes-allegations-that-she-lied-about-the-deficit-with-starmer-supporting-her-budget</loc>
     <lastmod>2025-11-30</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.capitalistme.com/politics/england-mayors-tourist-tax-overnight-stays-andy-burnham-2026</loc>
+    <lastmod>2026-09-10</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
