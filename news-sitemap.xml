@@ -3,14 +3,15 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
   <url>
-    <loc>https://www.capitalistme.com/world/houthis-dhubab-bab-el-mandeb-red-sea-yemen-conflict-2026</loc>
+    <loc>https://www.capitalistme.com/sports/peter-schmeichel-var-man-city-man-united-haaland-controversy-2026</loc>
     <news:news>
       <news:publication>
         <news:name>CapitalistME</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-09-11T15:30:00Z</news:publication_date>
-      <news:title>Houthis Advance Toward Bab el-Mandeb Strait as Yemen Conflict Raises Global Shipping Concerns</news:title>
+      <news:publication_date>2026-09-15T15:30:00Z</news:publication_date>
+      <news:title>Peter Schmeichel Calls for VAR Changes After Controversial Manchester Derby Decision</news:title>
     </news:news>
   </url>
 </urlset>
+

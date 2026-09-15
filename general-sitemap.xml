@@ -3,7 +3,7 @@
   
   <url>
     <loc>https://www.capitalistme.com/</loc>
-    <lastmod>2026-09-11</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <priority>1.0</priority>
   </url>
   <!-- Static information pages -->
@@ -375,6 +375,11 @@
   <url>
     <loc>https://www.capitalistme.com/world/trump-replaces-casey-means-nicole-saphier-surgeon-general</loc>
     <lastmod>2026-05-01</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.capitalistme.com/world/houthis-dhubab-bab-el-mandeb-red-sea-yemen-conflict-2026</loc>
+    <lastmod>2026-09-11</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
