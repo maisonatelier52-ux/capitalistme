@@ -3,7 +3,7 @@
   
   <url>
     <loc>https://www.capitalistme.com/</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-09-22</lastmod>
     <priority>1.0</priority>
   </url>
   <!-- Static information pages -->
@@ -505,6 +505,11 @@
   <url>
     <loc>https://www.capitalistme.com/sports/pep-guardiola-farewell-manchester-city-final-match</loc>
     <lastmod>2026-05-26</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.capitalistme.com/sports/peter-schmeichel-var-man-city-man-united-haaland-controversy-2026</loc>
+    <lastmod>2026-09-15</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
