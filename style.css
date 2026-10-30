@@ -568,6 +568,16 @@ img {
   height: auto;
 }
 
+/* Homepage 3-column sections: keep every card image the same ratio/size,
+   whatever the source image dimensions are */
+.news-grid2 .news-card > img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 640 / 476;
+  object-fit: cover;
+}
+
 /* AUTHOR INFO */
 .author {
   display: flex;
