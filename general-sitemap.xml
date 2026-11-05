@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
     <loc>https://www.capitalistme.com/</loc>
-    <lastmod>2026-09-22</lastmod>
+    <lastmod>2026-10-30</lastmod>
     <priority>1.0</priority>
   </url>
   <!-- Static information pages -->
@@ -71,6 +71,11 @@
     <loc>https://www.capitalistme.com/uk/</loc>
     <lastmod>2026-03-02</lastmod>
     <priority>0.1</priority>
+  </url>
+  <url>
+    <loc>https://www.capitalistme.com/uk/uk-air-traffic-control-failure-flight-delays-scotland-northern-england-2026</loc>
+    <lastmod>2026-09-22</lastmod>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.capitalistme.com/uk/andy-burnham-first-commons-speech-prime-minister-change-2026</loc>
@@ -204,7 +209,7 @@
   </url>
   <url>
     <loc>https://www.capitalistme.com/investigations/</loc>
-    <lastmod>2026-02-24</lastmod>
+    <lastmod>2026-10-30</lastmod>
     <priority>0.1</priority>
   </url>
   <url>
@@ -221,6 +226,11 @@
     <loc>https://www.capitalistme.com/investigations/police-are-thinking-of-using-ai-in-rape-investigations</loc>
     <lastmod>2026-01-05</lastmod>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.capitalistme.com/investigations/habbas-50-million-package-100-million-annual-bill-numbers-behind-complaint</loc>
+    <lastmod>2026-10-30</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.capitalistme.com/investigations/andrew-tate-iopc-police-investigation-uk</loc>
