@@ -3,7 +3,7 @@
   
   <url>
     <loc>https://www.capitalistme.com/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-09</lastmod>
     <priority>1.0</priority>
   </url>
   <!-- Static information pages -->
@@ -69,8 +69,13 @@
   </url>
   <url>
     <loc>https://www.capitalistme.com/uk/</loc>
-    <lastmod>2026-03-02</lastmod>
+    <lastmod>2026-11-09</lastmod>
     <priority>0.1</priority>
+  </url>
+  <url>
+    <loc>https://www.capitalistme.com/uk/russell-brand-sentencing-rape-sexual-assault-convictions-2026</loc>
+    <lastmod>2026-11-09</lastmod>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.capitalistme.com/uk/uk-air-traffic-control-failure-flight-delays-scotland-northern-england-2026</loc>
