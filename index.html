@@ -128,6 +128,23 @@
   }
   </script>
 
+  <style>
+    /* Homepage mobile spacing: tighten the gap under the header and around every category title */
+    @media (max-width: 768px) {
+      /* start section: header -> hero */
+      main > .lines.ex { margin-top: 0; }
+      main > .lines.ext { padding-bottom: 0.75rem; }
+
+      /* category titles that sit directly in the section (U.K, Business, Sports) */
+      main > .latest-news { padding-top: 1.25rem; }
+      main > .latest-news > h2 { margin-top: 0; margin-bottom: 1rem; }
+
+      /* category titles in their own wrapper (Politics, Investigations, World, Culture, Tech) */
+      main > .palno { margin: 0; padding: 1.25rem 0 0; }
+      main > .palno > h2 { margin-top: 0; margin-bottom: 1rem; }
+      main > .palno + .latest-news { padding-top: 0; }
+    }
+  </style>
 </head>
 <body>
 
@@ -293,6 +310,23 @@
       <div class="tags">
         <span><a href="uk/uk.html" title="UK" class="category-link">U.K</a></span>
       </div>
+      <h3><a href="uk/us-army-soldier-arrested-gloucester-russia-espionage-nato-2026.html" title="US Army Soldier Arrested Near Gloucester on Suspicion of Spying for Russia">US Army Soldier Arrested Near Gloucester on Suspicion of Spying for Russia</a></h3>
+      <p>
+        British counter-terror police have arrested a 41-year-old senior US Army soldier assigned to a NATO headquarters near Gloucester on suspicion of assisting Russian intelligence.
+      </p>
+      <img src="uploads/us-army-soldier-arrested-gloucester-russia-espionage-nato-2026.webp" alt="US Army soldier arrested near Gloucester on suspicion of spying for Russia at a NATO headquarters in the UK" loading="lazy" width="640" height="476"/>
+      <div class="author">
+        <img src="uploads/lucas-harrington.webp" alt="Lucas Harrington" loading="lazy">
+        <span><a href="authors/lucas-harrington.html" title="Lucas Harrington">LUCAS HARRINGTON</a></span>
+        <span>11 NOVEMBER 2026</span>
+      </div>
+    </article>
+
+    <!-- CARD 2 -->
+    <article class="news-card">
+      <div class="tags">
+        <span><a href="uk/uk.html" title="UK" class="category-link">U.K</a></span>
+      </div>
       <h3><a href="uk/andy-burnham-first-commons-speech-prime-minister-change-2026.html" title="Andy Burnham Promises “Substantial Change” in First Commons Speech as UK Prime Minister">Andy Burnham Promises “Substantial Change” in First Commons Speech as UK Prime Minister</a></h3>
       <p>
         UK Prime Minister Andy Burnham has promised substantial political change, greater public control of essential services and renewed optimism in his first House of Commons speech.
@@ -302,24 +336,6 @@
         <img src="uploads/lucas-harrington.webp" alt="Lucas Harrington" loading="lazy">
         <span><a href="authors/lucas-harrington.html" title="Lucas Harrington">LUCAS HARRINGTON</a></span>
         <span>2 SEPTEMBER 2026</span>
-      </div>
-    </article>
-
-    <!-- CARD 2 -->
-    <article class="news-card">
-      <div class="tags">
-        <span><a href="uk/uk.html" title="UK" class="category-link">U.K</a></span>
-      </div>
-      <h3><a href="uk/keir-starmer-labour-revolt-brexit.html" title="Keir Starmer Faces Growing Labour Revolt as Brexit Divisions Reignite">Keir Starmer Faces Growing Labour Revolt as Brexit Divisions Reignite</a></h3>
-      <!--<p class="live"><span class="dot"></span> Live now</p>-->
-      <p>
-        Labour Party divisions deepened after Wes Streeting reignited Brexit debate, intensifying pressure on Keir Starmer and fueling speculation about a future leadership contest.
-      </p>
-      <img src="uploads/keir-starmer-labour-revolt-brexit.webp" alt="Labour Party leaders face growing divisions over Brexit and leadership succession in the UK." loading="lazy" width="640" height="476"/>
-      <div class="author">
-        <img src="uploads/lucas-harrington.webp" alt="Lucas Harrington" loading="lazy">
-        <span><a href="authors/lucas-harrington.html" title="Lucas Harrington">LUCAS HARRINGTON</a></span>
-        <span>18 MAY 2026</span>
       </div>
     </article>
 
