@@ -3,7 +3,7 @@
   
   <url>
     <loc>https://www.capitalistme.com/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-14</lastmod>
     <priority>1.0</priority>
   </url>
   <!-- Static information pages -->
@@ -69,8 +69,13 @@
   </url>
   <url>
     <loc>https://www.capitalistme.com/uk/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-14</lastmod>
     <priority>0.1</priority>
+  </url>
+  <url>
+    <loc>https://www.capitalistme.com/uk/uk-economy-grows-0-7-percent-third-quarter-ai-investment-ons-2026</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.capitalistme.com/uk/us-army-soldier-arrested-gloucester-russia-espionage-nato-2026</loc>
@@ -569,7 +574,7 @@
   </url>
   <url>
     <loc>https://www.capitalistme.com/authors/lucas-harrington</loc>
-    <lastmod>2026-03-02</lastmod>
+    <lastmod>2026-11-14</lastmod>
     <priority>0.1</priority>
   </url>
   <url>
