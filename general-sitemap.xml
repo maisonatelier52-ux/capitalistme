@@ -3,7 +3,7 @@
   
   <url>
     <loc>https://www.capitalistme.com/</loc>
-    <lastmod>2026-11-14</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <priority>1.0</priority>
   </url>
   <!-- Static information pages -->
@@ -224,7 +224,7 @@
   </url>
   <url>
     <loc>https://www.capitalistme.com/investigations/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <priority>0.1</priority>
   </url>
   <url>
@@ -241,6 +241,11 @@
     <loc>https://www.capitalistme.com/investigations/police-are-thinking-of-using-ai-in-rape-investigations</loc>
     <lastmod>2026-01-05</lastmod>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.capitalistme.com/investigations/met-police-david-walliams-criminal-investigation-sexual-offences</loc>
+    <lastmod>2026-11-15</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.capitalistme.com/investigations/habbas-50-million-package-100-million-annual-bill-numbers-behind-complaint</loc>
@@ -589,7 +594,7 @@
   </url>
   <url>
     <loc>https://www.capitalistme.com/authors/daniel-whitmore</loc>
-    <lastmod>2026-02-18</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <priority>0.1</priority>
   </url>
   <url>
