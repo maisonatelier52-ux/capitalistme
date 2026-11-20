@@ -3,7 +3,7 @@
   
   <url>
     <loc>https://www.capitalistme.com/</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <priority>1.0</priority>
   </url>
   <!-- Static information pages -->
@@ -484,8 +484,13 @@
   </url>
   <url>
     <loc>https://www.capitalistme.com/tech/</loc>
-    <lastmod>2025-11-26</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <priority>0.1</priority>
+  </url>
+  <url>
+    <loc>https://www.capitalistme.com/tech/gta-6-worldwide-launch-uk-broadband-records-metacritic-99</loc>
+    <lastmod>2026-11-20</lastmod>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.capitalistme.com/tech/amazon-alexa-plus-uk-launch-features-compatibility-guide</loc>
